@@ -22,5 +22,6 @@
         "strictNullChecks": false,
         "suppressImplicitAnyIndexErrors": true,
         "types": ["jest"]
-    }
+    },
+    "exclude" : [ "node_modules" ]
 }

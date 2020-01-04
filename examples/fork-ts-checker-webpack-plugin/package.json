@@ -1,5 +1,5 @@
 {
-  "name": "fork-ts-checker-webpack-plugin",
+  "name": "fork-ts-checker-webpack-plugin pnpm boilerplate",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -8,7 +8,7 @@
     "prebuild": "rimraf ./dist/*",
     "build": "webpack --color --mode production --config webpack.config.production.js",
     "lint": "eslint ./",
-    "lint-rule-timings": "cross-env TIMING=1 yarn lint"
+    "lint-rule-timings": "cross-env TIMING=1 pnpm lint"
   },
   "devDependencies": {
     "@types/jest": "^24.0.0",
